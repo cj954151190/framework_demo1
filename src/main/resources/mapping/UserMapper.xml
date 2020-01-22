@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chujie.framework.demo1.dao.IUserDao">
+    <resultMap id="BaseResultMap" type="com.chujie.framework.demo1.entity.User">
+        <result column="id" javaType="java.lang.Integer" property="id"/>
+        <result column="userName" javaType="java.lang.String" property="userName"/>
+        <result column="passWord" javaType="java.lang.String" property="passWord"/>
+        <result column="realName" javaType="java.lang.String" property="realName"/>
+    </resultMap>
+
+    <select id="getList" resultMap="BaseResultMap">
+        select * from user;
+    </select>
+</mapper>
