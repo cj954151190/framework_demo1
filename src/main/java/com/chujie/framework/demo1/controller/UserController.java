@@ -19,10 +19,10 @@ import java.util.List;
 @RestController
 @RequestMapping("/demo1")
 public class UserController {
-    @Autowired
-    IUserService userService;
-    @RequestMapping("/users")
-    public List<User> getList() {
-        return userService.getList();
-    }
+//    @Autowired
+//    IUserService userService;
+//    @RequestMapping("/users")
+//    public List<User> getList() {
+//        return userService.getList();
+//    }
 }
