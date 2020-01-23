@@ -1,6 +1,7 @@
 server:
   port: 8080
 
+# 数据源配置
 spring:
   datasource:
     username: root
@@ -8,10 +9,14 @@ spring:
     url: jdbc:mysql://172.19.190.170:3366/myifo?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
     password: 123456
 
+# mybatis plus基本配置
 mybatis:
+  ## 指定Mapper.xml文件位置
   mapper-locations: classpath:mapping/*Mapper.xml
+  ## 指定entity实体类位置
   type-aliases-package: com.chujie.framework.demo1.entity
 
+# mybatis plus打印日志配置
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

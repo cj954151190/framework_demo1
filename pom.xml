@@ -25,7 +25,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- DB层依赖 -->
+        <!-- Mybatis plus依赖 -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -36,6 +36,7 @@
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.3.1</version>
         </dependency>
+        <!-- DB层依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
@@ -45,6 +46,7 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
         <!-- DB层依赖 -->
+
         <!-- 代码生成工具 -->
         <dependency>
             <groupId>com.baomidou</groupId>
@@ -59,6 +61,7 @@
         </dependency>
         <!-- 代码生成模板 -->
         <!-- 代码生成工具 -->
+        <!-- Mybatis plus依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

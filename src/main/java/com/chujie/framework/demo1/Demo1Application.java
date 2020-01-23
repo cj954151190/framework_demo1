@@ -6,6 +6,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+/**
+ * @MapperScan 指定MapperBean（DAO接口）位置
+ */
 @SpringBootApplication
 @MapperScan("com.chujie.framework.demo1")
 public class Demo1Application {
